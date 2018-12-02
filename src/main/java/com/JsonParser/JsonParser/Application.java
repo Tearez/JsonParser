@@ -34,7 +34,11 @@ public class Application {
 
         nPacketList = AvarageSignalPower(map);
         nPacketList.forEach(System.out::println);
-
+        try {
+            WriteJsonToOutput(args[3], nPacketList);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static String ReadInputFile(File file){
@@ -64,5 +68,12 @@ public class Application {
             avgList.add(new NPacket(string, average));
         }
         return avgList;
+    }
+
+    public static void WriteJsonToOutput(String output, List<NPacket> average) throws IOException {
+        PrintStream out = new PrintStream(new FileOutputStream(output));
+        Parser parser = new Parser();
+        String json = parser.ParseObjectsToString(average);
+        out.print(json);
     }
 }
