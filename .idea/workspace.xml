@@ -7,9 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4089ed2-4c5c-4a5b-9560-18c0097d59c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jsonparser/jsonparser/ParserTest/ParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputFile.json" beforeDir="false" afterPath="$PROJECT_DIR$/inputFile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/JsonParser/JsonParser/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/JsonParser/JsonParser/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/JsonParser/JsonParser/Models/NPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/JsonParser/JsonParser/Models/NPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Models/NPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Models/NPacket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -107,21 +109,22 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="3" />
-          <entry key="gradle" value="3" />
-          <entry key="java" value="5" />
+          <entry key="gradle" value="4" />
+          <entry key="java" value="8" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="5" />
+          <entry key="Groovy" value="4" />
+          <entry key="JAVA" value="8" />
           <entry key="JSON" value="1" />
           <entry key="Manifest" value="3" />
         </counts>
@@ -130,13 +133,13 @@
         <counts>
           <entry key="MF" value="5" />
           <entry key="gradle" value="248" />
-          <entry key="java" value="1491" />
+          <entry key="java" value="2335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="248" />
-          <entry key="JAVA" value="1491" />
+          <entry key="JAVA" value="2335" />
           <entry key="Manifest" value="5" />
         </counts>
       </usages-collector>
@@ -145,10 +148,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jsonparser/jsonparser/ParserTest/ParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            <state relative-caret-position="242">
+              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,8 +160,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputFile.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Parser/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="25" column="105" selection-start-line="25" selection-start-column="105" selection-end-line="25" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -353,7 +363,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="6175062796549" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="375515733" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3845186707" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1108731933" />
       </map>
@@ -550,10 +560,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Models/NPackets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Models/NPacket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Parser/Parser.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Models/NPacket.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jsonparser/jsonparser/ParserTest/ParserTest.java" />
       </list>
     </option>
   </component>
@@ -628,13 +639,35 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JsonParser" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JsonParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonParser" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JsonParser" type="462c0819:PsiDirectoryNode" />
+              <item name="Parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsonParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonParser" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsonParser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonParser" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -644,11 +677,11 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="jsonparser" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543780356718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543844315065" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.CVS" />
@@ -691,24 +724,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonParser [copyToLib]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="copyToLib" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
     <configuration name="JsonParser [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -745,6 +760,21 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
+    <configuration name="ParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonParser_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jsonparser.jsonparser.ParserTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jsonparser.jsonparser.ParserTest" />
+      <option name="MAIN_CLASS_NAME" value="com.jsonparser.jsonparser.ParserTest.ParserTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -765,18 +795,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.JsonParser [jar]" />
-      <item itemvalue="Gradle.JsonParser [copyToLib]" />
       <item itemvalue="JAR Application.JsonParser-1.0.jar" />
       <item itemvalue="Gradle.JsonParser [uberJar]" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="JUnit.ParserTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.JsonParser [jar]" />
+        <item itemvalue="JUnit.ParserTest" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.JsonParser [uberJar]" />
         <item itemvalue="JAR Application.JsonParser-1.0.jar" />
-        <item itemvalue="Gradle.JsonParser [copyToLib]" />
       </list>
     </recent_temporary>
   </component>
@@ -793,17 +823,18 @@
       <workItem from="1543761592324" duration="3295000" />
       <workItem from="1543765141049" duration="9897000" />
       <workItem from="1543776548884" duration="3771000" />
+      <workItem from="1543840216997" duration="4028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16963000" />
+    <option name="totallyTimeSpent" value="20991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -812,7 +843,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29787233" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -844,41 +875,51 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/outputFile.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Models/NPacket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        <state relative-caret-position="339">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Parser/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="103" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="103" />
+        <state relative-caret-position="407">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="294">
+          <caret line="25" column="105" selection-start-line="25" selection-start-column="105" selection-end-line="25" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputFile.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JsonParser/JsonParser/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jsonparser/jsonparser/ParserTest/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="242">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -892,10 +933,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
-              <type id="artifact" />
+              <type id="javaee-facet-resources" />
               <type id="library" />
+              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>JsonParser_main:jar</last-edited>
@@ -947,7 +988,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JsonParser_main|JsonParser</last-edited>
+          <last-edited>JsonParser_test|JsonParser</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -32,4 +32,10 @@ public class NPacket {
     public String toString() {
         return String.format("%s, %g", this.stationName, this.power);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        NPacket compare = (NPacket) obj;
+        return this.stationName.equals(compare.getStationName()) && this.power == compare.getPower();
+    }
 }
